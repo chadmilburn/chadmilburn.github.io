@@ -14,21 +14,37 @@ body {
     width: 1024px;
     margin: 0 auto;
   }
+
+#main_vis{
+    padding: 10px;
+    width: 250px;
+    height: 250px ;
+  } 
+
 #summary-header{
     color: teal;
-}
-#temp-image{
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-}
+    font-weight: bolder;
+  }
+
 #main-summary {
     width: 70%;
   }
 #vis-header{
     color: teal;
+    font-weight: bold;
 }
+#thumbnail_title{
+  color: teal;
+  text-align: center;
+}
+#thumbnail{
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  
+}
+
+
 /* cloud html style */
 #explanation{
     margin-top: 25px;
@@ -39,7 +55,28 @@ body {
   margin-left: 50px;
   padding: 50px;
 }
-.header{
-  position: sticky;
-  top: 0 ;
+
+.navbar-brand{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: teal ;
 }
+
+#navbarNavDropdown{
+  font-size: x-large;
+  font-weight: bold;
+}
+#png {
+  padding: 10px;
+ 
+}
+h6{
+  color: teal;
+  text-align: center;  
+}
+.dropdown-item{
+  color: teal;
+  font-weight: bold;
+  font-style: italic;
+}
+
